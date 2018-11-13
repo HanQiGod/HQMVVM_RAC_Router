@@ -20,7 +20,7 @@
      */
 + (void)setGlobalBackGroundImage: (UIImage *)globalImg {
     
-    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"WZXNavigationController"), nil];
+    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"HQNavigationController"), nil];
     [navBar setBackgroundImage:globalImg forBarMetrics:UIBarMetricsDefault];
     
     
@@ -38,7 +38,7 @@
     if (fontSize < 6 || fontSize > 40) {
         fontSize = 16;
     }
-    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"WZXNavigationController"), nil];
+    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:NSClassFromString(@"HQNavigationController"), nil];
     // 设置导航栏颜色
     NSDictionary *titleDic = @{
                                NSForegroundColorAttributeName: globalTextColor,
