@@ -6,7 +6,7 @@ target 'HQMVVM_RAC_Router' do
    use_frameworks!
 
   # Pods for HQMVVM_RAC_Router
-  pod 'AFNetworking'
+  #pod 'AFNetworking'
   
   pod 'SDWebImage', '~> 4.0.0'
   
