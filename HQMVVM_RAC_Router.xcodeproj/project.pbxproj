@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01EAC4636A7AD2A9F9602B30 /* Pods_HQMVVM_RAC_Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80EA9CFA84CD979F36E1FAC /* Pods_HQMVVM_RAC_Router.framework */; };
 		7A4CD459219A60870075BE5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD458219A60870075BE5B /* AppDelegate.m */; };
-		7A4CD45C219A60870075BE5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD45B219A60870075BE5B /* ViewController.m */; };
 		7A4CD45F219A60870075BE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4CD45D219A60870075BE5B /* Main.storyboard */; };
 		7A4CD461219A60880075BE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4CD460219A60880075BE5B /* Assets.xcassets */; };
 		7A4CD464219A60880075BE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4CD462219A60880075BE5B /* LaunchScreen.storyboard */; };
 		7A4CD467219A60880075BE5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD466219A60880075BE5B /* main.m */; };
 		7A4CD471219A60880075BE5B /* HQMVVM_RAC_RouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD470219A60880075BE5B /* HQMVVM_RAC_RouterTests.m */; };
 		7A4CD47C219A60890075BE5B /* HQMVVM_RAC_RouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD47B219A60890075BE5B /* HQMVVM_RAC_RouterUITests.m */; };
+		7A4CD4C5219A63050075BE5B /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4AB219A63050075BE5B /* Foundation+Log.m */; };
+		7A4CD4C7219A63050075BE5B /* XTSafeCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4AF219A63050075BE5B /* XTSafeCollection.m */; };
+		7A4CD4CB219A63050075BE5B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4B3219A63050075BE5B /* UIView+Extension.m */; };
+		7A4CD4D2219A635F0075BE5B /* HQHomeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4D1219A635F0075BE5B /* HQHomeViewController.mm */; };
+		7A4CD4D5219A638B0075BE5B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4D3219A638A0075BE5B /* TwoViewController.m */; };
+		7A4CD4D8219A63AD0075BE5B /* HQHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4D7219A63AD0075BE5B /* HQHomeViewModel.m */; };
+		7A4CD4DB219A63C60075BE5B /* HQTwoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4DA219A63C60075BE5B /* HQTwoViewModel.m */; };
+		7A4CD4DF219A67390075BE5B /* HQCircleFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4DE219A67390075BE5B /* HQCircleFriendsViewController.m */; };
+		7A4CD4E2219A67520075BE5B /* HQCircleFriendsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4E1219A67520075BE5B /* HQCircleFriendsViewModel.m */; };
+		7A4CD4E5219A67EF0075BE5B /* HQFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4E4219A67EF0075BE5B /* HQFindViewController.m */; };
+		7A4CD4E8219A68060075BE5B /* HQFindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4E7219A68060075BE5B /* HQFindViewModel.m */; };
+		7A4CD4EB219A686F0075BE5B /* HQAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4EA219A686F0075BE5B /* HQAccountViewController.m */; };
+		7A4CD4EE219A688C0075BE5B /* HQAccountViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4ED219A688C0075BE5B /* HQAccountViewModel.m */; };
+		7A4CD4F1219A69000075BE5B /* HQNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4F0219A69000075BE5B /* HQNavBar.m */; };
+		7A4CD4F4219A69340075BE5B /* HQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4F3219A69340075BE5B /* HQNavigationController.m */; };
+		7A4CD4F7219A69520075BE5B /* HQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4F6219A69520075BE5B /* HQTabBarController.m */; };
+		7A4CD4FA219A6A170075BE5B /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4F9219A6A170075BE5B /* LoginVC.m */; };
+		7A4CD4FD219A6A5A0075BE5B /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4FC219A6A5A0075BE5B /* UserInfo.m */; };
+		7A4CD500219A6B000075BE5B /* AppDelegate+HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD4FF219A6B000075BE5B /* AppDelegate+HQ.m */; };
+		7A4CD503219A71F40075BE5B /* UIColor+HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD502219A71F40075BE5B /* UIColor+HQ.m */; };
+		7A4CD506219A72280075BE5B /* HQNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD505219A72280075BE5B /* HQNetworking.m */; };
+		7A4CD509219A74580075BE5B /* NSDictionary+HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD508219A74580075BE5B /* NSDictionary+HQ.m */; };
+		7A4CD50C219A74900075BE5B /* NSString+HQString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD50B219A74900075BE5B /* NSString+HQString.m */; };
+		7A4CD50F219A74E40075BE5B /* NSArray+HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD50E219A74E40075BE5B /* NSArray+HQ.m */; };
+		7A4CD512219A797B0075BE5B /* MBProgressHUD+HQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD511219A797B0075BE5B /* MBProgressHUD+HQ.m */; };
+		7A4CD515219A79BC0075BE5B /* UIImage+HQGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD514219A79BC0075BE5B /* UIImage+HQGImage.m */; };
+		7A4CD517219A7D910075BE5B /* 路由.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A4CD516219A7D910075BE5B /* 路由.gif */; };
+		7A4CD525219A81B60075BE5B /* HQImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD524219A81B60075BE5B /* HQImagePicker.m */; };
+		7A4CD528219A82750075BE5B /* HQUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD527219A82750075BE5B /* HQUtils.m */; };
+		7A4CD52B219A82B30075BE5B /* HQCheckMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CD52A219A82B30075BE5B /* HQCheckMethod.m */; };
+		C17DE84AC6CBB8787136EB23 /* Pods_HQMVVM_RAC_RouterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B68D696BAB598468FB574BB /* Pods_HQMVVM_RAC_RouterTests.framework */; };
+		E99E923427497A96A1325ABD /* Pods_HQMVVM_RAC_RouterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CF7B70B88F0EFF559D46D2 /* Pods_HQMVVM_RAC_RouterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +67,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DD383687CAF78D8C81994A6 /* Pods-HQMVVM_RAC_RouterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMVVM_RAC_RouterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQMVVM_RAC_RouterUITests/Pods-HQMVVM_RAC_RouterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C269291CE06A7677A65040E /* Pods-HQMVVM_RAC_RouterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMVVM_RAC_RouterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQMVVM_RAC_RouterTests/Pods-HQMVVM_RAC_RouterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B68D696BAB598468FB574BB /* Pods_HQMVVM_RAC_RouterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQMVVM_RAC_RouterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795B10D5469501B7B5544982 /* Pods-HQMVVM_RAC_RouterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMVVM_RAC_RouterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQMVVM_RAC_RouterUITests/Pods-HQMVVM_RAC_RouterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4CD454219A60870075BE5B /* HQMVVM_RAC_Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQMVVM_RAC_Router.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4CD457219A60870075BE5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A4CD458219A60870075BE5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A4CD45A219A60870075BE5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A4CD45B219A60870075BE5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A4CD45E219A60870075BE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A4CD460219A60880075BE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A4CD463219A60880075BE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +85,70 @@
 		7A4CD477219A60880075BE5B /* HQMVVM_RAC_RouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQMVVM_RAC_RouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4CD47B219A60890075BE5B /* HQMVVM_RAC_RouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQMVVM_RAC_RouterUITests.m; sourceTree = "<group>"; };
 		7A4CD47D219A60890075BE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4CD4A1219A63050075BE5B /* XTSafeCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSafeCollection.h; sourceTree = "<group>"; };
+		7A4CD4A5219A63050075BE5B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7A4CD4AB219A63050075BE5B /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		7A4CD4AF219A63050075BE5B /* XTSafeCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSafeCollection.m; sourceTree = "<group>"; };
+		7A4CD4B3219A63050075BE5B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7A4CD4D0219A635F0075BE5B /* HQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeViewController.h; sourceTree = "<group>"; };
+		7A4CD4D1219A635F0075BE5B /* HQHomeViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HQHomeViewController.mm; sourceTree = "<group>"; };
+		7A4CD4D3219A638A0075BE5B /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		7A4CD4D4219A638A0075BE5B /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		7A4CD4D6219A63AD0075BE5B /* HQHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeViewModel.h; sourceTree = "<group>"; };
+		7A4CD4D7219A63AD0075BE5B /* HQHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeViewModel.m; sourceTree = "<group>"; };
+		7A4CD4D9219A63C60075BE5B /* HQTwoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQTwoViewModel.h; sourceTree = "<group>"; };
+		7A4CD4DA219A63C60075BE5B /* HQTwoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTwoViewModel.m; sourceTree = "<group>"; };
+		7A4CD4DC219A64480075BE5B /* HQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQPrefixHeader.pch; sourceTree = "<group>"; };
+		7A4CD4DD219A67390075BE5B /* HQCircleFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCircleFriendsViewController.h; sourceTree = "<group>"; };
+		7A4CD4DE219A67390075BE5B /* HQCircleFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCircleFriendsViewController.m; sourceTree = "<group>"; };
+		7A4CD4E0219A67520075BE5B /* HQCircleFriendsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCircleFriendsViewModel.h; sourceTree = "<group>"; };
+		7A4CD4E1219A67520075BE5B /* HQCircleFriendsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCircleFriendsViewModel.m; sourceTree = "<group>"; };
+		7A4CD4E3219A67EF0075BE5B /* HQFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQFindViewController.h; sourceTree = "<group>"; };
+		7A4CD4E4219A67EF0075BE5B /* HQFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQFindViewController.m; sourceTree = "<group>"; };
+		7A4CD4E6219A68060075BE5B /* HQFindViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQFindViewModel.h; sourceTree = "<group>"; };
+		7A4CD4E7219A68060075BE5B /* HQFindViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQFindViewModel.m; sourceTree = "<group>"; };
+		7A4CD4E9219A686F0075BE5B /* HQAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQAccountViewController.h; sourceTree = "<group>"; };
+		7A4CD4EA219A686F0075BE5B /* HQAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQAccountViewController.m; sourceTree = "<group>"; };
+		7A4CD4EC219A688C0075BE5B /* HQAccountViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQAccountViewModel.h; sourceTree = "<group>"; };
+		7A4CD4ED219A688C0075BE5B /* HQAccountViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQAccountViewModel.m; sourceTree = "<group>"; };
+		7A4CD4EF219A69000075BE5B /* HQNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNavBar.h; sourceTree = "<group>"; };
+		7A4CD4F0219A69000075BE5B /* HQNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQNavBar.m; sourceTree = "<group>"; };
+		7A4CD4F2219A69340075BE5B /* HQNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNavigationController.h; sourceTree = "<group>"; };
+		7A4CD4F3219A69340075BE5B /* HQNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQNavigationController.m; sourceTree = "<group>"; };
+		7A4CD4F5219A69520075BE5B /* HQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQTabBarController.h; sourceTree = "<group>"; };
+		7A4CD4F6219A69520075BE5B /* HQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTabBarController.m; sourceTree = "<group>"; };
+		7A4CD4F8219A6A170075BE5B /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		7A4CD4F9219A6A170075BE5B /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		7A4CD4FB219A6A5A0075BE5B /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		7A4CD4FC219A6A5A0075BE5B /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		7A4CD4FE219A6B000075BE5B /* AppDelegate+HQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+HQ.h"; sourceTree = "<group>"; };
+		7A4CD4FF219A6B000075BE5B /* AppDelegate+HQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+HQ.m"; sourceTree = "<group>"; };
+		7A4CD501219A71F40075BE5B /* UIColor+HQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HQ.h"; sourceTree = "<group>"; };
+		7A4CD502219A71F40075BE5B /* UIColor+HQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HQ.m"; sourceTree = "<group>"; };
+		7A4CD504219A72280075BE5B /* HQNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNetworking.h; sourceTree = "<group>"; };
+		7A4CD505219A72280075BE5B /* HQNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQNetworking.m; sourceTree = "<group>"; };
+		7A4CD507219A74580075BE5B /* NSDictionary+HQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HQ.h"; sourceTree = "<group>"; };
+		7A4CD508219A74580075BE5B /* NSDictionary+HQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HQ.m"; sourceTree = "<group>"; };
+		7A4CD50A219A74900075BE5B /* NSString+HQString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HQString.h"; sourceTree = "<group>"; };
+		7A4CD50B219A74900075BE5B /* NSString+HQString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HQString.m"; sourceTree = "<group>"; };
+		7A4CD50D219A74E40075BE5B /* NSArray+HQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HQ.h"; sourceTree = "<group>"; };
+		7A4CD50E219A74E40075BE5B /* NSArray+HQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HQ.m"; sourceTree = "<group>"; };
+		7A4CD510219A797B0075BE5B /* MBProgressHUD+HQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HQ.h"; sourceTree = "<group>"; };
+		7A4CD511219A797B0075BE5B /* MBProgressHUD+HQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HQ.m"; sourceTree = "<group>"; };
+		7A4CD513219A79BC0075BE5B /* UIImage+HQGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQGImage.h"; sourceTree = "<group>"; };
+		7A4CD514219A79BC0075BE5B /* UIImage+HQGImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQGImage.m"; sourceTree = "<group>"; };
+		7A4CD516219A7D910075BE5B /* 路由.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "路由.gif"; sourceTree = "<group>"; };
+		7A4CD523219A81B60075BE5B /* HQImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQImagePicker.h; sourceTree = "<group>"; };
+		7A4CD524219A81B60075BE5B /* HQImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQImagePicker.m; sourceTree = "<group>"; };
+		7A4CD526219A82750075BE5B /* HQUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQUtils.h; sourceTree = "<group>"; };
+		7A4CD527219A82750075BE5B /* HQUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQUtils.m; sourceTree = "<group>"; };
+		7A4CD529219A82B30075BE5B /* HQCheckMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCheckMethod.h; sourceTree = "<group>"; };
+		7A4CD52A219A82B30075BE5B /* HQCheckMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCheckMethod.m; sourceTree = "<group>"; };
+		852164B62E889600C03D7D89 /* Pods-HQMVVM_RAC_Router.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMVVM_RAC_Router.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQMVVM_RAC_Router/Pods-HQMVVM_RAC_Router.debug.xcconfig"; sourceTree = "<group>"; };
+		98CF7B70B88F0EFF559D46D2 /* Pods_HQMVVM_RAC_RouterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQMVVM_RAC_RouterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F83AD290CE0790CF2B29910 /* Pods-HQMVVM_RAC_RouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMVVM_RAC_RouterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQMVVM_RAC_RouterTests/Pods-HQMVVM_RAC_RouterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5A53E5F6A63CDD6EB88A411 /* Pods-HQMVVM_RAC_Router.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMVVM_RAC_Router.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQMVVM_RAC_Router/Pods-HQMVVM_RAC_Router.release.xcconfig"; sourceTree = "<group>"; };
+		D80EA9CFA84CD979F36E1FAC /* Pods_HQMVVM_RAC_Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQMVVM_RAC_Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EAC4636A7AD2A9F9602B30 /* Pods_HQMVVM_RAC_Router.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17DE84AC6CBB8787136EB23 /* Pods_HQMVVM_RAC_RouterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +172,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99E923427497A96A1325ABD /* Pods_HQMVVM_RAC_RouterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AC596DFE2C850CFF38D6EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80EA9CFA84CD979F36E1FAC /* Pods_HQMVVM_RAC_Router.framework */,
+				6B68D696BAB598468FB574BB /* Pods_HQMVVM_RAC_RouterTests.framework */,
+				98CF7B70B88F0EFF559D46D2 /* Pods_HQMVVM_RAC_RouterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7A4CD44B219A60870075BE5B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +196,8 @@
 				7A4CD46F219A60880075BE5B /* HQMVVM_RAC_RouterTests */,
 				7A4CD47A219A60890075BE5B /* HQMVVM_RAC_RouterUITests */,
 				7A4CD455219A60870075BE5B /* Products */,
+				BDBCE6960A5EEB230DFE665D /* Pods */,
+				3AC596DFE2C850CFF38D6EC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +214,11 @@
 		7A4CD456219A60870075BE5B /* HQMVVM_RAC_Router */ = {
 			isa = PBXGroup;
 			children = (
+				7A4CD489219A63050075BE5B /* Code */,
 				7A4CD457219A60870075BE5B /* AppDelegate.h */,
 				7A4CD458219A60870075BE5B /* AppDelegate.m */,
-				7A4CD45A219A60870075BE5B /* ViewController.h */,
-				7A4CD45B219A60870075BE5B /* ViewController.m */,
+				7A4CD516219A7D910075BE5B /* 路由.gif */,
+				7A4CD4DC219A64480075BE5B /* HQPrefixHeader.pch */,
 				7A4CD45D219A60870075BE5B /* Main.storyboard */,
 				7A4CD460219A60880075BE5B /* Assets.xcassets */,
 				7A4CD462219A60880075BE5B /* LaunchScreen.storyboard */,
@@ -132,6 +246,315 @@
 			path = HQMVVM_RAC_RouterUITests;
 			sourceTree = "<group>";
 		};
+		7A4CD489219A63050075BE5B /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD48A219A63050075BE5B /* Home */,
+				7A4CD48F219A63050075BE5B /* CircleFriends */,
+				7A4CD494219A63050075BE5B /* Find */,
+				7A4CD499219A63050075BE5B /* Account */,
+				7A4CD49E219A63050075BE5B /* Main */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		7A4CD48A219A63050075BE5B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD48B219A63050075BE5B /* ViewModel */,
+				7A4CD48C219A63050075BE5B /* Controller */,
+				7A4CD48D219A63050075BE5B /* Model */,
+				7A4CD48E219A63050075BE5B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A4CD48B219A63050075BE5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4D6219A63AD0075BE5B /* HQHomeViewModel.h */,
+				7A4CD4D7219A63AD0075BE5B /* HQHomeViewModel.m */,
+				7A4CD4D9219A63C60075BE5B /* HQTwoViewModel.h */,
+				7A4CD4DA219A63C60075BE5B /* HQTwoViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A4CD48C219A63050075BE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4D0219A635F0075BE5B /* HQHomeViewController.h */,
+				7A4CD4D1219A635F0075BE5B /* HQHomeViewController.mm */,
+				7A4CD4D4219A638A0075BE5B /* TwoViewController.h */,
+				7A4CD4D3219A638A0075BE5B /* TwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A4CD48D219A63050075BE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A4CD48E219A63050075BE5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A4CD48F219A63050075BE5B /* CircleFriends */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD490219A63050075BE5B /* ViewModel */,
+				7A4CD491219A63050075BE5B /* Controller */,
+				7A4CD492219A63050075BE5B /* Model */,
+				7A4CD493219A63050075BE5B /* View */,
+			);
+			path = CircleFriends;
+			sourceTree = "<group>";
+		};
+		7A4CD490219A63050075BE5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4E0219A67520075BE5B /* HQCircleFriendsViewModel.h */,
+				7A4CD4E1219A67520075BE5B /* HQCircleFriendsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A4CD491219A63050075BE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4DD219A67390075BE5B /* HQCircleFriendsViewController.h */,
+				7A4CD4DE219A67390075BE5B /* HQCircleFriendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A4CD492219A63050075BE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A4CD493219A63050075BE5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A4CD494219A63050075BE5B /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD495219A63050075BE5B /* ViewModel */,
+				7A4CD496219A63050075BE5B /* Controller */,
+				7A4CD497219A63050075BE5B /* Model */,
+				7A4CD498219A63050075BE5B /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		7A4CD495219A63050075BE5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4E6219A68060075BE5B /* HQFindViewModel.h */,
+				7A4CD4E7219A68060075BE5B /* HQFindViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A4CD496219A63050075BE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4E3219A67EF0075BE5B /* HQFindViewController.h */,
+				7A4CD4E4219A67EF0075BE5B /* HQFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A4CD497219A63050075BE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A4CD498219A63050075BE5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A4CD499219A63050075BE5B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD49A219A63050075BE5B /* ViewModel */,
+				7A4CD49B219A63050075BE5B /* Controller */,
+				7A4CD49C219A63050075BE5B /* Model */,
+				7A4CD49D219A63050075BE5B /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		7A4CD49A219A63050075BE5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4EC219A688C0075BE5B /* HQAccountViewModel.h */,
+				7A4CD4ED219A688C0075BE5B /* HQAccountViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A4CD49B219A63050075BE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4E9219A686F0075BE5B /* HQAccountViewController.h */,
+				7A4CD4EA219A686F0075BE5B /* HQAccountViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A4CD49C219A63050075BE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A4CD49D219A63050075BE5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A4CD49E219A63050075BE5B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD49F219A63050075BE5B /* Category */,
+				7A4CD4B5219A63050075BE5B /* Other */,
+				7A4CD4B6219A63050075BE5B /* Controller */,
+				7A4CD4B7219A63050075BE5B /* Model */,
+				7A4CD4B8219A63050075BE5B /* Lib */,
+				7A4CD4C1219A63050075BE5B /* Login */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7A4CD49F219A63050075BE5B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD501219A71F40075BE5B /* UIColor+HQ.h */,
+				7A4CD502219A71F40075BE5B /* UIColor+HQ.m */,
+				7A4CD4A1219A63050075BE5B /* XTSafeCollection.h */,
+				7A4CD4AF219A63050075BE5B /* XTSafeCollection.m */,
+				7A4CD504219A72280075BE5B /* HQNetworking.h */,
+				7A4CD505219A72280075BE5B /* HQNetworking.m */,
+				7A4CD507219A74580075BE5B /* NSDictionary+HQ.h */,
+				7A4CD508219A74580075BE5B /* NSDictionary+HQ.m */,
+				7A4CD50A219A74900075BE5B /* NSString+HQString.h */,
+				7A4CD50B219A74900075BE5B /* NSString+HQString.m */,
+				7A4CD4A5219A63050075BE5B /* UIView+Extension.h */,
+				7A4CD4B3219A63050075BE5B /* UIView+Extension.m */,
+				7A4CD50D219A74E40075BE5B /* NSArray+HQ.h */,
+				7A4CD50E219A74E40075BE5B /* NSArray+HQ.m */,
+				7A4CD510219A797B0075BE5B /* MBProgressHUD+HQ.h */,
+				7A4CD511219A797B0075BE5B /* MBProgressHUD+HQ.m */,
+				7A4CD513219A79BC0075BE5B /* UIImage+HQGImage.h */,
+				7A4CD514219A79BC0075BE5B /* UIImage+HQGImage.m */,
+				7A4CD4AB219A63050075BE5B /* Foundation+Log.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7A4CD4B5219A63050075BE5B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4FE219A6B000075BE5B /* AppDelegate+HQ.h */,
+				7A4CD4FF219A6B000075BE5B /* AppDelegate+HQ.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7A4CD4B6219A63050075BE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4EF219A69000075BE5B /* HQNavBar.h */,
+				7A4CD4F0219A69000075BE5B /* HQNavBar.m */,
+				7A4CD4F2219A69340075BE5B /* HQNavigationController.h */,
+				7A4CD4F3219A69340075BE5B /* HQNavigationController.m */,
+				7A4CD4F5219A69520075BE5B /* HQTabBarController.h */,
+				7A4CD4F6219A69520075BE5B /* HQTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A4CD4B7219A63050075BE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4FB219A6A5A0075BE5B /* UserInfo.h */,
+				7A4CD4FC219A6A5A0075BE5B /* UserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A4CD4B8219A63050075BE5B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD51D219A81670075BE5B /* BDImagePicker */,
+				7A4CD518219A81670075BE5B /* Method */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7A4CD4C1219A63050075BE5B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD4F8219A6A170075BE5B /* LoginVC.h */,
+				7A4CD4F9219A6A170075BE5B /* LoginVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7A4CD518219A81670075BE5B /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD526219A82750075BE5B /* HQUtils.h */,
+				7A4CD527219A82750075BE5B /* HQUtils.m */,
+				7A4CD529219A82B30075BE5B /* HQCheckMethod.h */,
+				7A4CD52A219A82B30075BE5B /* HQCheckMethod.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		7A4CD51D219A81670075BE5B /* BDImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				7A4CD523219A81B60075BE5B /* HQImagePicker.h */,
+				7A4CD524219A81B60075BE5B /* HQImagePicker.m */,
+			);
+			path = BDImagePicker;
+			sourceTree = "<group>";
+		};
+		BDBCE6960A5EEB230DFE665D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852164B62E889600C03D7D89 /* Pods-HQMVVM_RAC_Router.debug.xcconfig */,
+				D5A53E5F6A63CDD6EB88A411 /* Pods-HQMVVM_RAC_Router.release.xcconfig */,
+				4C269291CE06A7677A65040E /* Pods-HQMVVM_RAC_RouterTests.debug.xcconfig */,
+				9F83AD290CE0790CF2B29910 /* Pods-HQMVVM_RAC_RouterTests.release.xcconfig */,
+				795B10D5469501B7B5544982 /* Pods-HQMVVM_RAC_RouterUITests.debug.xcconfig */,
+				1DD383687CAF78D8C81994A6 /* Pods-HQMVVM_RAC_RouterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +562,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A4CD480219A60890075BE5B /* Build configuration list for PBXNativeTarget "HQMVVM_RAC_Router" */;
 			buildPhases = (
+				D1D08B15DC8AFDAA0A723953 /* [CP] Check Pods Manifest.lock */,
 				7A4CD450219A60870075BE5B /* Sources */,
 				7A4CD451219A60870075BE5B /* Frameworks */,
 				7A4CD452219A60870075BE5B /* Resources */,
+				6546098222B826F6BC993A58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +581,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A4CD483219A60890075BE5B /* Build configuration list for PBXNativeTarget "HQMVVM_RAC_RouterTests" */;
 			buildPhases = (
+				1BFC952BA62D2F0B06D28A2B /* [CP] Check Pods Manifest.lock */,
 				7A4CD468219A60880075BE5B /* Sources */,
 				7A4CD469219A60880075BE5B /* Frameworks */,
 				7A4CD46A219A60880075BE5B /* Resources */,
@@ -174,6 +600,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A4CD486219A60890075BE5B /* Build configuration list for PBXNativeTarget "HQMVVM_RAC_RouterUITests" */;
 			buildPhases = (
+				30B383EE4CDD4C374E41EAEE /* [CP] Check Pods Manifest.lock */,
 				7A4CD473219A60880075BE5B /* Sources */,
 				7A4CD474219A60880075BE5B /* Frameworks */,
 				7A4CD475219A60880075BE5B /* Resources */,
@@ -237,6 +664,7 @@
 			files = (
 				7A4CD464219A60880075BE5B /* LaunchScreen.storyboard in Resources */,
 				7A4CD461219A60880075BE5B /* Assets.xcassets in Resources */,
+				7A4CD517219A7D910075BE5B /* 路由.gif in Resources */,
 				7A4CD45F219A60870075BE5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +685,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BFC952BA62D2F0B06D28A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQMVVM_RAC_RouterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B383EE4CDD4C374E41EAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQMVVM_RAC_RouterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6546098222B826F6BC993A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HQMVVM_RAC_Router/Pods-HQMVVM_RAC_Router-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/JLRoutes/JLRoutes.framework",
+				"${BUILT_PRODUCTS_DIR}/JPFPSStatus/JPFPSStatus.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MyLayout/MyLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLRoutes.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JPFPSStatus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQMVVM_RAC_Router/Pods-HQMVVM_RAC_Router-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D08B15DC8AFDAA0A723953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQMVVM_RAC_Router-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A4CD450219A60870075BE5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4CD45C219A60870075BE5B /* ViewController.m in Sources */,
+				7A4CD50C219A74900075BE5B /* NSString+HQString.m in Sources */,
+				7A4CD4FA219A6A170075BE5B /* LoginVC.m in Sources */,
+				7A4CD52B219A82B30075BE5B /* HQCheckMethod.m in Sources */,
+				7A4CD4F4219A69340075BE5B /* HQNavigationController.m in Sources */,
+				7A4CD525219A81B60075BE5B /* HQImagePicker.m in Sources */,
+				7A4CD4E2219A67520075BE5B /* HQCircleFriendsViewModel.m in Sources */,
+				7A4CD4E5219A67EF0075BE5B /* HQFindViewController.m in Sources */,
+				7A4CD4CB219A63050075BE5B /* UIView+Extension.m in Sources */,
+				7A4CD509219A74580075BE5B /* NSDictionary+HQ.m in Sources */,
+				7A4CD503219A71F40075BE5B /* UIColor+HQ.m in Sources */,
+				7A4CD50F219A74E40075BE5B /* NSArray+HQ.m in Sources */,
+				7A4CD4C5219A63050075BE5B /* Foundation+Log.m in Sources */,
+				7A4CD506219A72280075BE5B /* HQNetworking.m in Sources */,
+				7A4CD528219A82750075BE5B /* HQUtils.m in Sources */,
+				7A4CD4DB219A63C60075BE5B /* HQTwoViewModel.m in Sources */,
+				7A4CD4C7219A63050075BE5B /* XTSafeCollection.m in Sources */,
+				7A4CD4F7219A69520075BE5B /* HQTabBarController.m in Sources */,
+				7A4CD4D2219A635F0075BE5B /* HQHomeViewController.mm in Sources */,
+				7A4CD4EE219A688C0075BE5B /* HQAccountViewModel.m in Sources */,
+				7A4CD4DF219A67390075BE5B /* HQCircleFriendsViewController.m in Sources */,
+				7A4CD4F1219A69000075BE5B /* HQNavBar.m in Sources */,
+				7A4CD512219A797B0075BE5B /* MBProgressHUD+HQ.m in Sources */,
+				7A4CD4D8219A63AD0075BE5B /* HQHomeViewModel.m in Sources */,
+				7A4CD4EB219A686F0075BE5B /* HQAccountViewController.m in Sources */,
 				7A4CD467219A60880075BE5B /* main.m in Sources */,
+				7A4CD4E8219A68060075BE5B /* HQFindViewModel.m in Sources */,
+				7A4CD4D5219A638B0075BE5B /* TwoViewController.m in Sources */,
+				7A4CD500219A6B000075BE5B /* AppDelegate+HQ.m in Sources */,
+				7A4CD515219A79BC0075BE5B /* UIImage+HQGImage.m in Sources */,
 				7A4CD459219A60870075BE5B /* AppDelegate.m in Sources */,
+				7A4CD4FD219A6A5A0075BE5B /* UserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +984,11 @@
 		};
 		7A4CD481219A60890075BE5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852164B62E889600C03D7D89 /* Pods-HQMVVM_RAC_Router.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/jkdzkj/Desktop/HQWork/WorkSpace/GitHub项目/HQMVVM_RAC_Router/HQMVVM_RAC_Router/HQPrefixHeader.pch";
 				INFOPLIST_FILE = HQMVVM_RAC_Router/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +1002,11 @@
 		};
 		7A4CD482219A60890075BE5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A53E5F6A63CDD6EB88A411 /* Pods-HQMVVM_RAC_Router.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/jkdzkj/Desktop/HQWork/WorkSpace/GitHub项目/HQMVVM_RAC_Router/HQMVVM_RAC_Router/HQPrefixHeader.pch";
 				INFOPLIST_FILE = HQMVVM_RAC_Router/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +1020,7 @@
 		};
 		7A4CD484219A60890075BE5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C269291CE06A7677A65040E /* Pods-HQMVVM_RAC_RouterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +1039,7 @@
 		};
 		7A4CD485219A60890075BE5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F83AD290CE0790CF2B29910 /* Pods-HQMVVM_RAC_RouterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +1058,7 @@
 		};
 		7A4CD487219A60890075BE5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795B10D5469501B7B5544982 /* Pods-HQMVVM_RAC_RouterUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQMVVM_RAC_RouterUITests/Info.plist;
@@ -518,6 +1076,7 @@
 		};
 		7A4CD488219A60890075BE5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD383687CAF78D8C81994A6 /* Pods-HQMVVM_RAC_RouterUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQMVVM_RAC_RouterUITests/Info.plist;

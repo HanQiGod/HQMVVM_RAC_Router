@@ -2,21 +2,34 @@
 //  AppDelegate.m
 //  HQMVVM_RAC_Router
 //
-//  Created by 君凯商联网 on 2018/11/13.
-//  Copyright © 2018 君凯商联网. All rights reserved.
+//  Created by Mr_Han on 2018/11/13.
+//  Copyright © 2018 Mr_Han. All rights reserved.
+//  CSDN <https://blog.csdn.net/u010960265>
+//  GitHub <https://github.com/HanQiGod>
 //
 
 #import "AppDelegate.h"
 
+#import "AppDelegate+HQ.h"
+#ifndef __OPTIMIZE__
+#import "JPFPSStatus.h"
+#endif
 @interface AppDelegate ()
-
-@end
+    
+    @end
 
 @implementation AppDelegate
-
-
+    
+    
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+#if defined(DEBUG)||defined(_DEBUG)
+    [[JPFPSStatus sharedInstance] open];
+#endif
+    
+    // 初始化项目
+    [self registerRoutes];
+    
     return YES;
 }
 
