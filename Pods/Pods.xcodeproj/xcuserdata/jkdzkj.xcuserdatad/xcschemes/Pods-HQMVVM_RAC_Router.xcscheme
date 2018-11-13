@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D11E7CDDAE9D50DF14D0F42D8D6C15DF"
+               BlueprintIdentifier = "CEE9A786D26CDB33732BEFACDD46E039"
                BuildableName = "Pods_HQMVVM_RAC_Router.framework"
                BlueprintName = "Pods-HQMVVM_RAC_Router"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D11E7CDDAE9D50DF14D0F42D8D6C15DF"
+            BlueprintIdentifier = "CEE9A786D26CDB33732BEFACDD46E039"
             BuildableName = "Pods_HQMVVM_RAC_Router.framework"
             BlueprintName = "Pods-HQMVVM_RAC_Router"
             ReferencedContainer = "container:Pods.xcodeproj">
