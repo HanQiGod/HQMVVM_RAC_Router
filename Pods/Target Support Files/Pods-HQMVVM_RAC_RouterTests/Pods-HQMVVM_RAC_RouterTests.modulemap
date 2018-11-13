@@ -1,0 +1,6 @@
+framework module Pods_HQMVVM_RAC_RouterTests {
+  umbrella header "Pods-HQMVVM_RAC_RouterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

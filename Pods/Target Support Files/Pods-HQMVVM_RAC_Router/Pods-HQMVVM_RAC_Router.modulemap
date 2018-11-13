@@ -1,0 +1,6 @@
+framework module Pods_HQMVVM_RAC_Router {
+  umbrella header "Pods-HQMVVM_RAC_Router-umbrella.h"
+
+  export *
+  module * { export * }
+}
